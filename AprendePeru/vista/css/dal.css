@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    text-align:center;
+    font-family:tahoma;
+}
+header#cab{ position:relative; margin:0; left:0; right:0; height:100px; background:#000; background-image:url(../images/bg12.png); }
+section#cuerpo{position:absolute; overflow:hidden; width:1000px; top:110px; left:50%; margin-left:-500px; bottom:110px; }
+footer#pie{position:absolute; margin:0; left:0; bottom:0; right:0; height:100px; background:#000;background-image:url(../images/bg12.png); }
+
+section#titulo{position:relative;  width:1000px; margin:auto; text-align:left; top:10px; left:10px; font-size:50px; color:#fff; font-family:fantasy; text-shadow:0 0 10px #fff; }
+section.pie{position:relative; overflow:hidden; width:1000px; background:#ccc; }
+
+figure#logo{ position:relative;  margin:0; float:left; margin-top:8px; }
+span.titulo-pagina{ display:block; float:left; margin-right:15px; margin-top:5px; }
+section#menu{ position:relative; float:right; top:15px; }
+section#menu ul#menu{ margin:0; padding:0; list-style:none; text-decoration:none; }
+section#menu ul#menu li{ float:left; }
+section#menu ul#menu li a:link{ color:#fff; font-size:20px; display:block; float:left; text-decoration:none; padding:10px 10px 10px 10px; margin-left:10px; text-shadow:0 0 5px #000;}
+section#menu ul#menu li a:hover{color:#fff; font-size:20px; display:block;float:left; text-decoration:none; padding:10px 10px 10px 10px; margin-left:10px; text-shadow:0 0 5px #000;cursor:pointer;}
+section#menu ul#menu li a:active{color:#fff; font-size:20px;display:block; float:left; text-decoration:none; padding:10px 10px 10px 10px; margin-left:10px; text-shadow:0 0 5px #000;}
+section#menu ul#menu li a:visited{color:#fff; font-size:20px; display:block;float:left; text-decoration:none; padding:10px 10px 10px 10px; margin-left:10px; text-shadow:0 0 5px #000;}
+
+section#izq, section#der{ position: relative; float: left;  padding:10px 10px 10px 10px; width:360px;}
+section#der{ width:600px;}
+h1{font-family:fantasy; font-size:30px; margin:0; color:#fefefe; text-shadow:0 0 20px #000;}
+
+label{ display:block; width:200px; text-align:left; font-size:13px;margin:5px 5px 5px 5px;}
+input{ padding:5px 5px 5px 5px; float:left; width:595px; box-shadow:2px 2px 5px #ccc; margin:5px 5px 5px 0;}
+button{ font-size:10px; }
+
+h2{font-size:18px; font-family:fantasy; color:#ffffff; padding:5px 5px 5px 5px; background:#0080c0; width:300px; margin-left:auto; margin-right:auto; margin-top:10px;font-weight:bold; text-shadow:2px 2px 2px #000; border-radius:5px;}
+
+div.sms{ position:fixed; width:400px; height:200px; top:50%; left:50%; margin-left:-200px; margin-top:-150px; overflow:hidden; padding:10px 10px 10px 10px; border:2px solid #ff8000; background:#ffcb97; z-index:999; }
